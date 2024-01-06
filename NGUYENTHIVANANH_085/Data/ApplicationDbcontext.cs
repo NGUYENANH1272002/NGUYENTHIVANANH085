@@ -7,6 +7,6 @@ namespace NGUYENTHIVANANH_085.Data
     {
         public ApplicationDbcontext(DbContextOptions<ApplicationDbcontext> options) : base(options)
         {}
-        public DbSet<Lophoc> Lophoc{get;set;}
+       
     }
 }
